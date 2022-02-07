@@ -53,3 +53,20 @@ export const obtenerCliente = async id => {
     throw error;
   }
 }
+
+//funcion para eliminar un cliente
+
+export const eliminarCliente = async (id) => {
+
+  try {
+    await fetch (`${URL}/${id}`, {
+      method: 'DELETE'
+
+    });
+
+  } catch (error) {
+    throw error;
+    
+  }
+
+}

@@ -1,13 +1,6 @@
 {
   "clientes": [
     {
-      "nombre": "Andrea",
-      "email": "andrea@gmail.com",
-      "telefono": 4545775,
-      "empresa": "Kibernum",
-      "id": 3
-    },
-    {
       "nombre": "Geraldine",
       "email": "geraldine@gmail.com",
       "telefono": 45453315,
